@@ -1,0 +1,21 @@
+# Temporary Excel locking files created while open
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSSharedFileList
+
+# Editor / IDE configuration
+.vscode/
+.idea/
+
+# System log files
+*.log

@@ -1,0 +1,19 @@
+📁 `description.txt`
+> **File location**: `project 1.2/docs/description.txt` *(Create a `docs` folder inside `project 1.2`)*
+
+```text
+PROJECT 1.2 - BANK STATEMENT PARSING & FINANCIAL RECONCILIATION
+
+Project Overview:
+This project transforms unformatted bank statement CSV exports into an automated, audit-ready financial reconciliation model.
+
+Input File:
+1. bank_statement.csv - Unformatted raw statement export containing posted transaction dates, description narratives, withdrawal/deposit amounts, and running balances.
+
+Output File:
+- bank_reconciliation_final.xlsx (renamed from final done.xlsx) - Complete financial workbook with categorized transaction ledgers, variance schedules, and monthly reconciliation summaries.
+
+Key Technical Steps Executed:
+- Narrative Cleaning: Processed raw bank description strings to isolate vendor names and transaction types.
+- Cash Flow Classification: Automated debit and credit categorization into income and operational expense categories.
+- Balance Verification: Built dynamic formulas to verify opening/closing balance math and highlight un-reconciled line items.
